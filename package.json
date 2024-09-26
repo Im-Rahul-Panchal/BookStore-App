@@ -4,9 +4,9 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "nodemon index.js",
-    "build": "npm install && npm install vite --prefix frontend && npm install --prefix frontend && npm run build --prefix frontend",
-    "start": "node index.js"
+    "dev": "nodemon backend/index.js",
+    "start": "node backend/index.js",
+    "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend "
   },
   "repository": {
     "type": "git",
