@@ -76,7 +76,7 @@ const Contact = () => {
                 </label>
 
                 
-                <button className="bg-pink-500 text-white rounded-md px-3 py-1 hover:bg-pink-700 duration-200"
+                <button className="bg-pink-500 text-white rounded-md px-3 py-1 mt-12 hover:bg-pink-700 duration-200"
                 type='submit'
 
                 >Submit</button>
