@@ -24,7 +24,7 @@ const Contact = () => {
           };
           console.log(userInfo)
 
-        await axios.post("http://localhost:4001/contact/submit" , userInfo)
+        await axios.post("/contact/submit" , userInfo)
         .then((res) => {
         console.log(res.data)
         if(res.data) {
