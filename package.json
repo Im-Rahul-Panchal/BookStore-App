@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "nodemon backend/index.js",
     "start": "node backend/index.js",
-    "build": "npm run build --prefix frontend && npm install --prefix frontend && npm install"
+    "build": "npm install vite --save-dev --prefix frontend && npm run build --prefix frontend && npm install --prefix frontend && npm install"
   },
   "repository": {
     "type": "git",
